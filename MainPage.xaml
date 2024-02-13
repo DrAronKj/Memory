@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="Memory.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Memory"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <MenuBar VerticalAlignment="Top">
+            <MenuBarItem Title="File">
+                <MenuFlyoutItem Text="Exit" Click="MenuFlyoutItem_Click"/>
+                <MenuFlyoutItem Text="Game" Click="MenuFlyoutItem_Click_2"/>
+            </MenuBarItem>
+            <MenuBarItem Title="Help">
+                <MenuFlyoutItem Text="About" Click="MenuFlyoutItem_Click_1"/>
+            </MenuBarItem>
+
+        </MenuBar>
+        <Image x:Name="image2" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="492,190,0,0" VerticalAlignment="Top" Width="100" Tapped="Image2"/>
+        <Image x:Name="image3" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="750,190,0,0" VerticalAlignment="Top" Width="100" Tapped="Image3"/>
+        <Image x:Name="image4" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="925,190,0,0" VerticalAlignment="Top" Width="100" Tapped="Image4"/>
+        <Image x:Name="image8" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="925,356,0,0" VerticalAlignment="Top" Width="100" Tapped="Image8"/>
+        <Image x:Name="image7" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="750,356,0,0" VerticalAlignment="Top" Width="100" Tapped="Image7"/>
+        <Image x:Name="image6" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="492,356,0,0" VerticalAlignment="Top" Width="100" Tapped="Image6"/>
+        <Image x:Name="image5" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="277,356,0,0" VerticalAlignment="Top" Width="100" Tapped="Image5"/>
+        <Image x:Name="image1" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="277,190,0,0" VerticalAlignment="Top" Width="100" Tapped="Image1"/>
+        <Image x:Name="image10" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="492,524,0,0" VerticalAlignment="Top" Width="100" Tapped="Image10"/>
+        <Image x:Name="image11" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="750,524,0,0" VerticalAlignment="Top" Width="100" Tapped="Image11"/>
+        <Image x:Name="image16" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="925,691,0,0" VerticalAlignment="Top" Width="100" Tapped="Image16"/>
+        <Image x:Name="image13" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="277,691,0,0" VerticalAlignment="Top" Width="100" Tapped="Image13"/>
+        <Image x:Name="image9" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="277,524,0,0" VerticalAlignment="Top" Width="100" Tapped="Image9"/>
+        <Image x:Name="image14" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="492,691,0,0" VerticalAlignment="Top" Width="100" Tapped="Image14"/>
+        <Image x:Name="image15" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="750,691,0,0" VerticalAlignment="Top" Width="100" Tapped="Image15"/>
+        <Image x:Name="image12" Source="/Assets/preuzmi.png" HorizontalAlignment="Left" Height="100" Margin="925,524,0,0" VerticalAlignment="Top" Width="100" Tapped="Image12"/>
+
+    </Grid>
+</Page>
